@@ -36,7 +36,7 @@ Odbiorcami aplikacji są miłośnicy psów.
  - [Dog API](https://dog.ceo/dog-api/) (do pobierania zdjęć i nazw ras psów)
 
 ### Backend:
- - NextJS
+ - NextJS (`/api/uploadDog`)
  - Supabase (Postgres SaaS jako baza danych)
 
 ## Użycie
@@ -53,14 +53,16 @@ Odbiorcami aplikacji są miłośnicy psów.
 - `NEXT_PUBLIC_SUPABASE_URL`
 - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
 
-### Lokalnie aplikacja może zostać uruchomina po instalacji zależności przy pomocy polecenia:
+### Przed uruchomienien aplikacji wymagane jest zainstalowanie zależności przy pomocy polecenia:
 
 ```npm install```
 
 ### Po poprawnej instalacji możemy uruchomić aplikacje za pomocą polecenia:
 ```npm run dev```
 
-Po uruchomieniu aplikacja powinna być dostępna pod adresem [localhost](http://localhost:3000)
+Po uruchomieniu aplikacja powinna być dostępna pod adresem [http://localhost](http://localhost:3000)
 
 
+## Schemat
+![Schemat aplikacji](wykres-zaliczenie.png)
 
