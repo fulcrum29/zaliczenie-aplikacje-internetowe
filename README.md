@@ -41,7 +41,8 @@ Odbiorcami aplikacji są miłośnicy psów.
 
 ## Użycie
 
-### Aplikacja dostępna jest na platformie vercel pod adresem [https://zaliczenie-aplikacje-internetowe.vercel.app](https://zaliczenie-aplikacje-internetowe.vercel.app)
+### Aplikacja dostępna jest na platformie vercel pod adresem \ 
+[https://zaliczenie-aplikacje-internetowe.vercel.app](https://zaliczenie-aplikacje-internetowe.vercel.app)
 
 ### Do poprawnego działania aplikacji wymagana jest darmowa baza danych [Supabase](http://supabase.com)
 #### Tabela o nazwie `topdawgs` powinna zawierać 3 kolumny:
