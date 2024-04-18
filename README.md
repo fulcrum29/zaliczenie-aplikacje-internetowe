@@ -63,6 +63,6 @@ Odbiorcami aplikacji są miłośnicy psów.
 Po uruchomieniu aplikacja powinna być dostępna pod adresem [http://localhost](http://localhost:3000)
 
 
-## Schemat
+## Schemat aplikacji
 ![Schemat aplikacji](wykres-zaliczenie.png)
 
