@@ -16,4 +16,26 @@ Ranking wyświetlany jest również w formie wykresu słupkowego.
 Po otwarciu strony, aplikacja powinna pobrać 3 losowe rasy psów tj. nazwa rasy wraz ze zdjęciem i wyświetlić je użytkownikowi.
 Użytkownik powinien mieć możliwość wybrania jednej rasy. Po każdym wybraniu rasy komponent wyswietlający psy powinnien się dynamicznie (bez innej interakcji użytkownika) odświeżyć wyświetlając kolejne rasy psów.
 Każdy głos oddany przez użytkownika powinien zostać wysłany do "backendu" skąd powinien zostać zapisany w bazie danych.
-Pod adresem `/leadearboad` powinien być dostępny ranking psów generowany na podstawie wykonanych głosów. Ranking powinien zawierać zdjęcie rasy wraz z ilością oddanych głosów. Przycisk `Pokaż wykres` powinien generować wykres słupkowy przedstawiający rozkład oddanych głosów na 5 najczęściej wybieranych ras.
+Pod adresem `/leadearboad` powinien być dostępny ranking psów generowany na podstawie wykonanych głosów. Ranking powinien zawierać zdjęcie rasy wraz z ilością oddanych głosów. Przycisk `Pokaż wykres` powinien generować wykres słupkowy przedstawiający rozkład oddanych głosów na 5 najczęściej wybieranych ras. Przycisk powinien pozwolic na wrócenie do rankingu w formie zdjęcie-liczba głosów.
+
+## Odbiorcy
+
+Odbiorcami aplikacji są miłośnicy psów.
+
+## 
+
+
+## Użyte technologie i API
+
+### Frontend:
+ - React
+ - CSS
+ - HTML
+ - Axios (do zapytan dla zewnetrznego API)
+ - [Dog API](https://dog.ceo/dog-api/) (do pobierania zdjec i nazwy ras psów)
+
+### Backend:
+ - NextJS
+ - Supabase (Postgres SaaS jako baza danych)
+
+## Użycie
