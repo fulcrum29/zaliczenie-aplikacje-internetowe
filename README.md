@@ -1,5 +1,7 @@
 # Dokumentacja projektu na zaliczenie zajęć Programowanie aplikacji internetowych Lato 2024
 
+[https://github.com/fulcrum29/zaliczenie-aplikacje-internetowe](https://github.com/fulcrum29/zaliczenie-aplikacje-internetowe)
+
 ## Temat projektu
 
 Tematem projektu jest aplikacja internetowa pozwalająca na ocenianie różnych ras psów.

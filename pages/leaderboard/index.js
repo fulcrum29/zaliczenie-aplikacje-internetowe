@@ -117,7 +117,7 @@ export default function Pies(params) {
             Top 5 dawgs
           </h1>
           <div className="flex items-center">
-            <p className="text-white text-lg font-semibold mr-2">{viewGraph ? 'Pokaż listę' :"Pokaż graf"}</p>
+            <p className="text-white text-lg font-semibold mr-2">{viewGraph ? 'Pokaż listę' :"Pokaż wykres"}</p>
             <div
               onClick={() => {
                 setViewGraph(!viewGraph);
